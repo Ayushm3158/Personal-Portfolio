@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ayush Portfolio</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav id="navbar">
+            
+            
+            <!-- Menu -->
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#links">Contact</a></li>
+            </ul>
+        </nav>
+        
+
+        <section class="site-header" id="home">  
+    <!-- profile picture -->  
+    <img src="Ayush pic.jpg" alt="profile picture" class="profile-pic">  
+    
+    <!-- introduction -->  
+    <div class="site-header-content">  
+        <h1>I am Ayush Kumar Mishra, a Computer Science student specializing in AI & ML with expertise in C, C++, Java, Python, and database management (MySQL, DBMS). Passionate about AI-driven solutions, I have developed projects like an employee burnout prediction system and an automated attendance management system using facial recognition. Through internships at IBM SkillsBuild and TechSaksham, I gained hands-on experience in AI/ML and deep learning. I am eager to apply my skills to solve real-world challenges and contribute to innovative, tech-driven solutions.</h1>  
+          
+    </div>  
+    
+    <a id="more_about_me" onclick="myAbout(this)" onmouseover="onHover(this)" onmouseout="notHover(this)">Know More About Me</a>  
+</section>
+
+
+        <!-- About Me -->
+        <section id="about_me">
+            <h1>About Me</h1>
+            
+            <article>
+                <p class="justifyContent"><u>Currently</u>: I am pursuing my Bachelor's degree in Computer Science (B.Tech) from SRM AP. </p>
+
+                <p><u>Hobbies</u>: I enjoy reading, listening to music, listening to podcasts.</p>
+                <p><u>Address</u>: Nautan Balua , Bettiah (Bihar).</p>
+            </article>
+        </section>
+
+
+        <!-- Education -->
+        <section id="education">
+            <h1>Education</h1>
+            
+            <div>
+               
+                
+                <!-- Under-Graduate -->
+                <div id="ug">
+                    <h3>Graduation</h3>
+                    <p class="mar"><strong>University:</strong> SRM AP</p>
+                    <p class="mar"><strong>Session:</strong> 2022-26</p>
+                    <p class="mar"><strong> Current CGPA:</strong> 7.77</p>
+                </div>
+                
+                <!-- 12th -->
+                <div id="twelve">
+                    <h3>12th</h3>
+                    <p class="mar"><strong>Intermediate School:</strong> Devstaliye Vidyapith ,Motihari</p>
+                    <p class="mar"><strong>Passing Year:</strong> 2020</p>
+                    <p class="mar"><strong>Percentage:</strong> 72</p>
+                </div>
+                
+                <!-- 10th -->
+                <div id="tenth">
+                    <h3>10th</h3>
+                    <p class="mar"><strong>Matriculation School:</strong>Arya Vidyapith , Motihari</p>
+                    <p class="mar"><strong>Passing Year:</strong> 2022</p>
+                    <p class="mar"><strong>Percentage:</strong> 85</p>    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills">
+            <h1 id="skill">Skills</h1>
+
+            <div class="left">
+                
+                <p>I am a Web developer. You can check out my projects at GitHub.</p>
+
+                <p>Link: <a href="https://github.com/Ayushm3158">Ayushm3158</a></p>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><span>&#10031;&nbsp; C</span></li>
+                    <li><span>&#10031;&nbsp; C++</span></li>
+                    <li><span>&#10031;&nbsp; Python</span></li>
+                    <li><span>&#10031;&nbsp; Html</span></li>
+                    <li><span>&#10031;&nbsp; CSS</span></li>
+                    <li><span>&#10031;&nbsp; JavaScript</span></li>
+                    <li><span>&#10031;&nbsp; PHP</span></li>
+                    <li><span>&#10031;&nbsp; MySQL</span></li>
+                    <li><span>&#10031;&nbsp; Java</span></li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Projects -->  
+<section id="projects">  
+    <h1 id="project">Projects</h1>  
+
+    <div class="center">  
+        <div class="project-item">  
+            <a href="https://github.com/Ayushm3158/Amazonclone">Amazon-clone</a>  
+        </div>  
+
+        <div class="project-item">  
+            <a href="https://github.com/Ayushm3158/Online_Education_platform">Online_Education_platform</a>  
+        </div>  
+
+        <div class="project-item">  
+            <a href="https://github.com/Ayushm3158/Attendance-Management-System-using-Face-Recognition">Attendance-Management-System-using-Face-Recognition</a>  
+        </div>  
+
+        <div class="project-item">  
+            <a href="https://github.com/Ayushm3158/Employee_Burn_Out_Prediction">Employee_Burn_Out_Prediction</a>  
+        </div>  
+
+        <div class="project-item">  
+            <a href="https://github.com/Ayushm3158/Online-Library_management-system">Online-Library_management-system</a>  
+        </div>  
+
+        <div class="project-item">  
+            <a href="https://github.com/Ayushm3158/stock_sentiment">stock_sentiment</a>  
+        </div>  
+    </div>  
+</section>  
+
+<style>  
+    .center {  
+        display: flex;  
+        flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */  
+        gap: 20px; /* Adjust the space between items */  
+        justify-content: center; /* Centers the items horizontally */  
+    }  
+
+    .project-item {  
+        flex: 0 1 30%; /* Adjust the width of each item, can change percentage as needed */  
+        text-align: center; /* Center the text in each item */  
+    }  
+
+    a {  
+        text-decoration: none; /* Remove underline from links */  
+        color: #007BFF; /* Change link color */  
+    }  
+
+    a:hover {  
+        text-decoration: underline; /* Underline on hover for better UX */  
+    }  
+</style>
+
+
+        <!-- Achievements -->
+        <section id="achievements">
+            <h1 id="achievement">Achievements</h1>
+
+            <div>
+                <div id="hackerRank">
+                    <h1>HackerRank</h1>
+                    <p>3 star in C++</p>
+                    <p>1 star in SQL</p>
+                    <p>1 star in Java</p>
+                    <p>4 star in Problem Solving</p>
+                    
+                </div>
+                
+                <div id="codeChef">
+                    <h1>CodeChef</h1>
+                    <p>3 star at codechef</p>
+                    <p>600 codechef rating</p>
+                    <p>100 fully solved problems</p>
+                </div>
+
+                <div id="linkedin">
+                    <h1>LinkedIn</h1>
+                    <p>C++ - Passed LinkedIn Skill Assessment</p>
+                    <p>HTML - Passed LinkedIn Skill Assessment</p>
+                    <p>CSS - Passed LinkedIn Skill Assessment</p>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+            <h1 id="links">Get in touch</h1>
+            
+            <div>
+                <!-- Email -->
+                <div class="height-width">
+                    <h1><a href="mailto:aayushm219@gmail.com">Send Email</a></h1>
+                </div>
+
+                <!-- Github link -->
+                <div class="height-width">
+                    <h1><a href="https://github.com/Ayushm3158">Github</a></h1>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="height-width">
+                    <h1><a href="https://www.linkedin.com/in/ayushkumarmishra3158">LinkedIn</a></h1>
+                </div>
+
+                 <!-- Twitter -->
+                 <div class="height-width">
+                    <h1><a href="https://twitter.com/AyushMishra3158?t=XgCLVht1ceMbv22_oh1IHg&s=09">Twitter</a></h1>
+                </div>
+                
+               
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <footer class="footer">
+            <p>&copy; 2025 By Ayush Mishra.</p>
+        </footer>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
